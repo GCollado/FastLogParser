@@ -1,2 +1,0 @@
-2026-08-07 08:15:33 [ERROR] Record ID AP-88304: Validation failed - MISSING_MD signature on surgical pathology report. Routing to exception queue.
-2026-08-07 08:17:42 [ERROR] Record ID AP-88307: Route failure - MISSING_MD attending provider NPI for send-out test.
