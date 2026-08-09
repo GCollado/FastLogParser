@@ -3,7 +3,7 @@
 A high-performance C++ command-line utility that scans massive system log files, extracts flagged events, and persists them into a SQLite relational database for automated auditing and QA analysis.
 
 ## The Problem
-Enterprise clinical platforms—such as Epic Beaker—generate gigabytes of daily log files during batch synchronizations. When records drop to exception queues (e.g., a `MISSING_MD` signature), manually parsing unstructured text to isolate these failures is inefficient.
+Enterprise clinical platformsâ€”such as Epic Beakerâ€”generate gigabytes of daily log files during batch synchronizations. When records drop to exception queues (e.g., a `MISSING_MD` signature), manually parsing unstructured text to isolate these failures is inefficient.
 
 This tool automates the extraction pipeline, transforming unstructured system logs into a queryable relational database in milliseconds.
 
@@ -24,8 +24,8 @@ This tool automates the extraction pipeline, transforming unstructured system lo
 Clone the repository and compile. The SQLite source (`sqlite3.c`) is included directly for seamless compilation without external package managers.
 
 ```bash
-git clone [https://github.com/yourusername/FastLogParser.git](https://github.com/yourusername/FastLogParser.git)
-cd FastLogParser
+git clone https://github.com/GCollado/FastLogParser.git
+
 g++ main.cpp sqlite3.c -o log_parser -pthread -ldl
 
 
